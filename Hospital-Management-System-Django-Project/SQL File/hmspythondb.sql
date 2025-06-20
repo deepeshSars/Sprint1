@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jul 19, 2024 at 07:23 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -342,8 +333,8 @@ CREATE TABLE `dasapp_patientreg` (
 
 INSERT INTO `dasapp_patientreg` (`id`, `mobilenumber`, `gender`, `address`, `regdate_at`, `updated_at`, `admin_id`) VALUES
 (1, '4465465465', 'Female', 'O-908, GHU, Block-7', '2024-07-03 06:02:00.740490', '2024-07-03 06:02:00.740490', 4),
-(2, '6549787977', 'Male', 'K-1008, GHU, Kailash Apartment Delhi', '2024-07-03 06:03:47.580619', '2024-07-03 06:03:47.580619', 5),
-(4, '9879879879', 'Female', 'L-908, Mangoli Apartment Kanpur', '2024-07-10 11:26:11.659497', '2024-07-10 11:26:11.659497', 10),
+(2, '6549787977', 'Male', 'K-1008, GHU, Kailash Apartment Pune', '2024-07-03 06:03:47.580619', '2024-07-03 06:03:47.580619', 5),
+(4, '9879879879', 'Female', 'L-908, Mangoli Apartment Pune', '2024-07-10 11:26:11.659497', '2024-07-10 11:26:11.659497', 10),
 (5, '1233211230', 'Male', 'NA', '2024-07-17 13:24:24.823664', '2024-07-17 13:24:24.823664', 12);
 
 -- --------------------------------------------------------
